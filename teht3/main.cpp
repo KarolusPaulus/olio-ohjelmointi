@@ -28,11 +28,11 @@ int game(int max) {
         arvaustenMaara++;
 
         if (pelaajanArvaus < etsittavaLuku) {
-            cout << "Luku on suurempi." << endl;
+            cout << "Luku on suurempi" << endl;
         } else if (pelaajanArvaus > etsittavaLuku) {
-            cout << "Luku on pienempi." << endl;
+            cout << "Luku on pienempi" << endl;
         } else {
-            cout << "Oikein! Onneksi olkoon." << endl;
+            cout << "Oikein! Onneksi olkoon!" << endl;
         }
 
     } while (pelaajanArvaus != etsittavaLuku);
