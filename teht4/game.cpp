@@ -16,6 +16,7 @@ game::~game()
 
 void game::printGameResult()
 {
+    cout << playerGuess << " is right!" << endl;
     cout << "You guessed the right number " << playerGuess << " with " << numOfGuesses << " guesses" << endl;
 }
 
@@ -36,7 +37,6 @@ void game::play()
         } else if (playerGuess > randomNumber) {
             cout << "Your guess is too big" << endl;
         } else {
-            cout << playerGuess << " is right!" << endl;
             printGameResult();
         }
 
